@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+/* import React, { useEffect, useState } from "react";
 
 export default function TestPromises() {
     const [loading, setLoading] = useState();
@@ -48,3 +48,4 @@ export default function TestPromises() {
         </>
     );
 }
+ */

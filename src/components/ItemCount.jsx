@@ -1,8 +1,6 @@
 import React, { useState, useEffect} from "react";
 import { Button } from 'react-bootstrap';
 import CartWidget from './CartWidget';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 
 const ItemCount = ({ initial, stock, onAdd }) => {
     const [count, setCount] = useState(1);
