@@ -1,5 +1,5 @@
 import React from 'react';
-import ItemCount from './components/ItemCount';
+/* import ItemCount from './components/ItemCount'; */
 import ItemList from './components/ItemList';
 import ItemListContainer from './components/ItemListContainer';
 import NavBar from './components/NavBar';
@@ -12,8 +12,8 @@ import Contact from './components/Contact'; */
 
 const App = () =>{
 
-  const stock = 6;
-  const initial = 1;
+/*   const stock = 6;
+  const initial = 1; */
 
   return (
     <>
@@ -21,7 +21,7 @@ const App = () =>{
       <NavBar />
       <ItemListContainer greetings = "BIENVENIDO A LA TIENDA" />
       {/* <TestPromises /> */}
-      <ItemCount stock={stock} initial={initial} />
+      {/* <ItemCount stock={stock} initial={initial} /> */}
       <ItemList />
       {/*<BrowserRouter>
         NAVBAR - SE CREA EL COMPONENTE NAVBAR
