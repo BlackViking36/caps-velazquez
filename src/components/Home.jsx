@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
+/* import { Link } from 'react-router-dom'; */
+import Hijo1DeHome from './Hijo1DeHome';
 
-function Home() {
+
+export default function Home() {
     return (
-        <div>Home</div>
+        <div>
+            Home
+            <Hijo1DeHome /> {/* darkMode={darkMode} setDarkMode={darkMode} */} 
+        </div>
     )
 }
-
-export default Home
